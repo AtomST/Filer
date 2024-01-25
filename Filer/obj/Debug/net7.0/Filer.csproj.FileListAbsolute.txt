@@ -1,0 +1,219 @@
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\appsettings.json
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Filer.staticwebassets.runtime.json
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Filer.exe
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Filer.deps.json
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Filer.runtimeconfig.json
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Filer.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Filer.pdb
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Станислав\source\repos\Filer\Filer\obj\Debug\net7.0\Filer.csproj.AssemblyReference.cache
+C:\Users\Станислав\source\repos\Filer\Filer\obj\Debug\net7.0\Filer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Станислав\source\repos\Filer\Filer\obj\Debug\net7.0\Filer.AssemblyInfoInputs.cache
+C:\Users\Станислав\source\repos\Filer\Filer\obj\Debug\net7.0\Filer.AssemblyInfo.cs
+C:\Users\Станислав\source\repos\Filer\Filer\obj\Debug\net7.0\Filer.csproj.CoreCompileInputs.cache
+C:\Users\Станислав\source\repos\Filer\Filer\obj\Debug\net7.0\Filer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Станислав\source\repos\Filer\Filer\obj\Debug\net7.0\staticwebassets\msbuild.Filer.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Станислав\source\repos\Filer\Filer\obj\Debug\net7.0\staticwebassets\msbuild.build.Filer.props
+C:\Users\Станислав\source\repos\Filer\Filer\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Filer.props
+C:\Users\Станислав\source\repos\Filer\Filer\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Filer.props
+C:\Users\Станислав\source\repos\Filer\Filer\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Станислав\source\repos\Filer\Filer\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Станислав\source\repos\Filer\Filer\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Станислав\source\repos\Filer\Filer\obj\Debug\net7.0\scopedcss\bundle\Filer.styles.css
+C:\Users\Станислав\source\repos\Filer\Filer\obj\Debug\net7.0\Filer.csproj.CopyComplete
+C:\Users\Станислав\source\repos\Filer\Filer\obj\Debug\net7.0\Filer.dll
+C:\Users\Станислав\source\repos\Filer\Filer\obj\Debug\net7.0\refint\Filer.dll
+C:\Users\Станислав\source\repos\Filer\Filer\obj\Debug\net7.0\Filer.pdb
+C:\Users\Станислав\source\repos\Filer\Filer\obj\Debug\net7.0\Filer.genruntimeconfig.cache
+C:\Users\Станислав\source\repos\Filer\Filer\obj\Debug\net7.0\ref\Filer.dll
+C:\Users\Станислав\source\repos\Filer\Filer\obj\Debug\net7.0\Filer.RazorAssemblyInfo.cache
+C:\Users\Станислав\source\repos\Filer\Filer\obj\Debug\net7.0\Filer.RazorAssemblyInfo.cs
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\obj\Debug\net7.0\Filer.csproj.AssemblyReference.cache
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\obj\Debug\net7.0\Filer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\obj\Debug\net7.0\Filer.AssemblyInfoInputs.cache
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\obj\Debug\net7.0\Filer.AssemblyInfo.cs
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\obj\Debug\net7.0\Filer.csproj.CoreCompileInputs.cache
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\obj\Debug\net7.0\Filer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\obj\Debug\net7.0\Filer.RazorAssemblyInfo.cache
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\obj\Debug\net7.0\Filer.RazorAssemblyInfo.cs
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\obj\Debug\net7.0\Filer.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\obj\Debug\net7.0\refint\Filer.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\obj\Debug\net7.0\Filer.pdb
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\appsettings.json
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Filer.staticwebassets.runtime.json
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Filer.exe
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Filer.deps.json
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Filer.runtimeconfig.json
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Filer.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Filer.pdb
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Humanizer.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\obj\Debug\net7.0\staticwebassets\msbuild.Filer.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\obj\Debug\net7.0\staticwebassets\msbuild.build.Filer.props
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Filer.props
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Filer.props
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\obj\Debug\net7.0\scopedcss\bundle\Filer.styles.css
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\obj\Debug\net7.0\Filer.csproj.CopyComplete
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\obj\Debug\net7.0\Filer.genruntimeconfig.cache
+C:\Users\stasz\OneDrive - Южный Федеральный Университет\Filer\Filer\obj\Debug\net7.0\ref\Filer.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\appsettings.json
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Filer.staticwebassets.runtime.json
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Filer.exe
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Filer.deps.json
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Filer.runtimeconfig.json
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Filer.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Filer.pdb
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Humanizer.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\stasz\source\repos\Filer\Filer\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\stasz\source\repos\Filer\Filer\obj\Debug\net7.0\Filer.csproj.AssemblyReference.cache
+C:\Users\stasz\source\repos\Filer\Filer\obj\Debug\net7.0\Filer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stasz\source\repos\Filer\Filer\obj\Debug\net7.0\Filer.AssemblyInfoInputs.cache
+C:\Users\stasz\source\repos\Filer\Filer\obj\Debug\net7.0\Filer.AssemblyInfo.cs
+C:\Users\stasz\source\repos\Filer\Filer\obj\Debug\net7.0\Filer.csproj.CoreCompileInputs.cache
+C:\Users\stasz\source\repos\Filer\Filer\obj\Debug\net7.0\Filer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\stasz\source\repos\Filer\Filer\obj\Debug\net7.0\Filer.RazorAssemblyInfo.cache
+C:\Users\stasz\source\repos\Filer\Filer\obj\Debug\net7.0\Filer.RazorAssemblyInfo.cs
+C:\Users\stasz\source\repos\Filer\Filer\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\stasz\source\repos\Filer\Filer\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\stasz\source\repos\Filer\Filer\obj\Debug\net7.0\staticwebassets\msbuild.Filer.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\stasz\source\repos\Filer\Filer\obj\Debug\net7.0\staticwebassets\msbuild.build.Filer.props
+C:\Users\stasz\source\repos\Filer\Filer\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Filer.props
+C:\Users\stasz\source\repos\Filer\Filer\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Filer.props
+C:\Users\stasz\source\repos\Filer\Filer\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\stasz\source\repos\Filer\Filer\obj\Debug\net7.0\scopedcss\bundle\Filer.styles.css
+C:\Users\stasz\source\repos\Filer\Filer\obj\Debug\net7.0\Filer.csproj.CopyComplete
+C:\Users\stasz\source\repos\Filer\Filer\obj\Debug\net7.0\Filer.dll
+C:\Users\stasz\source\repos\Filer\Filer\obj\Debug\net7.0\refint\Filer.dll
+C:\Users\stasz\source\repos\Filer\Filer\obj\Debug\net7.0\Filer.pdb
+C:\Users\stasz\source\repos\Filer\Filer\obj\Debug\net7.0\Filer.genruntimeconfig.cache
+C:\Users\stasz\source\repos\Filer\Filer\obj\Debug\net7.0\ref\Filer.dll

@@ -1,0 +1,16 @@
+﻿@using Filer.Models;
+@model UserDto
+<div class="reg-form">
+    <h1>Login</h1>
+    <form method="post">
+        <div class="reg-row">
+            <div asp-validation-summary="All"></div>
+            <input asp-for="Email" type="text" placeholder="Email" />
+        </div>
+        <div class="reg-row">
+            <input asp-for="Password" type="password" placeholder="Password" />
+        </div>
+        <button type="submit">Войти</button>
+    </form>
+
+</div>
