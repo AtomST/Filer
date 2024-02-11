@@ -14,8 +14,8 @@ namespace Filer.DAL.Repository
             _dbcontext = dbContext;
             _logger = logger;
         }
-        
-        public IEnumerable<User> Users => _dbcontext.Users.AsNoTracking().ToList();
+        public IEnumerable<User> Users => _dbcontext.Users.ToList();
+        public IEnumerable<User> UsersANT => _dbcontext.Users.AsNoTracking().ToList();
         public IEnumerable<User> UsersWithData => _dbcontext.Users.Include(f => f.Files).Include(f => f.Folders).AsNoTracking().ToList();
 
 
@@ -35,7 +35,10 @@ namespace Filer.DAL.Repository
 
         }
 
-        
+        public async Task SaveChangesAsync()
+        {
+            await _dbcontext.SaveChangesAsync();
+        }
         public User? GetUserById(string id)
         {
             User? u = _dbcontext.Users.FirstOrDefault(x => x.Id.ToString() == id);

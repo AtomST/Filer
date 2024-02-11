@@ -12,7 +12,7 @@
             <p class="text-center fst-italic col">Сохраняйте и делитесь</p>
             @if (User.Identity.IsAuthenticated)
             {
-                <p class="text-center fst-italic col">@User.Identity.Name</p>
+                <p class="text-center fst-italic col"><a asp-action="Profile">@User.Identity.Name</a></p>
                 <p class="text-center col"><a asp-controller="auth" asp-action="LogOut">Выход</a></p>
             }
             else

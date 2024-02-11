@@ -27,6 +27,31 @@ namespace Filer.Controllers
         {
             return View(new User());
         }
+        [Authorize]
+        [HttpPost]
+        public async Task<IActionResult> ChangePassword(string passwordOld, string passwordNew, string passwordConfirm)
+        {
+            User u = _service.GetUserByCookie(HttpContext);
+            if (u.Password == _service.CreateMD5(passwordOld))
+            {
+                if(passwordNew != passwordConfirm)
+                {
+                    ModelState.AddModelError("passwordConfirm", "Пароли должны совпадать");
+                    return View();
+                }
+                u.Password = _service.CreateMD5(passwordNew);
+                await _userRepository.SaveChangesAsync();
+                return RedirectToAction("Profile", "Filer");
+            }
+            ModelState.AddModelError("passwordOld", "Пароль неверный");
+            return View();
+        }
+        [HttpGet]
+        [Authorize]
+        public IActionResult ChangePassword()
+        {
+            return View();
+        }
         [HttpPost]
         public async Task<IActionResult> Registration(User user)
         {
@@ -42,7 +67,7 @@ namespace Filer.Controllers
                 ModelState.AddModelError(response.ErrorEntity, response.ErrorMessage);
                 return View(user);
             }
-            return RedirectToAction("main", "filer");
+            return RedirectToAction("Main", "filer");
         }
         [HttpGet]
         public async Task<IActionResult> Login()
@@ -53,7 +78,7 @@ namespace Filer.Controllers
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync();
-            return RedirectToAction("main", "filer");
+            return RedirectToAction("Main", "filer");
         }
 
         [HttpPost]
@@ -65,7 +90,7 @@ namespace Filer.Controllers
                 ModelState.AddModelError(response.ErrorEntity, response.ErrorMessage);
                 return View(userdto);
             }
-            return RedirectToAction("main", "filer");
+            return RedirectToAction("Main", "filer");
 
         }
     }

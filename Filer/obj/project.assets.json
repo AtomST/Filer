@@ -2885,19 +2885,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Станислав\\.nuget\\packages\\": {}
+    "C:\\Users\\stasz\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Станислав\\source\\repos\\Filer\\Filer\\Filer.csproj",
+      "projectUniqueName": "C:\\Users\\stasz\\source\\repos\\Filer1.2\\Filer\\Filer.csproj",
       "projectName": "Filer",
-      "projectPath": "C:\\Users\\Станислав\\source\\repos\\Filer\\Filer\\Filer.csproj",
-      "packagesPath": "C:\\Users\\Станислав\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Станислав\\source\\repos\\Filer\\Filer\\obj\\",
+      "projectPath": "C:\\Users\\stasz\\source\\repos\\Filer1.2\\Filer\\Filer.csproj",
+      "packagesPath": "C:\\Users\\stasz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\stasz\\source\\repos\\Filer1.2\\Filer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Станислав\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\stasz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2957,7 +2957,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

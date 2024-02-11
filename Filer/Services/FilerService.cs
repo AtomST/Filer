@@ -131,25 +131,27 @@ namespace Filer.Service
         {
             MainDTO mainDTO = new MainDTO();
             mainDTO.folderId = folderId;
+            mainDTO.SrcParam = src;
             User? user = _userRepository.UsersWithData.FirstOrDefault(x => x.Id.ToString() == context.User.Claims.FirstOrDefault(x => x.Type == "Id").Value);
             if (user == null)
             {
                 return mainDTO;
             }
+            mainDTO.files = user.Files;
+            mainDTO.folders = user.Folders;
             if(src != null)
             {
-                mainDTO.files = user.Files.Where(x => x.Name.Contains(src)).ToList();
-                mainDTO.folders = user.Folders.Where(x => x.Name.Contains(src)).ToList();
-                return mainDTO;
+                mainDTO.files = mainDTO.files.Where(x => x.Name.Contains(src)).ToList();
+                mainDTO.folders = mainDTO.folders.Where(x => x.Name.Contains(src)).ToList();
             }
             if(folderId == null)
             {
-                mainDTO.files = user.Files.Where(x => x.FolderId == null).ToList();
-                mainDTO.folders = user.Folders.Where(x => x.InFolderId == 0).ToList();
+                mainDTO.files = mainDTO.files.Where(x => x.FolderId == null).ToList();
+                mainDTO.folders = mainDTO.folders.Where(x => x.InFolderId == 0).ToList();
                 return mainDTO;
             }
-            mainDTO.files = user.Files.Where(x => x.FolderId == folderId).ToList(); 
-            mainDTO.folders = user.Folders.Where(x => x.InFolderId == folderId).ToList();
+            mainDTO.files = mainDTO.files.Where(x => x.FolderId == folderId).ToList(); 
+            mainDTO.folders = mainDTO.folders.Where(x => x.InFolderId == folderId).ToList();
             return mainDTO;
         }
 

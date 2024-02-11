@@ -36,9 +36,10 @@ namespace Filer
             app.UseRouting();
             app.UseAuthentication();
             app.UseAuthorization();
+            app.MapControllerRoute("default", "filer/{folder:long}", new { Controller = "Filer", action = "Main" });
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Filer}/{action=page/folders}");
+                pattern: "{controller=Filer}/{action=main}");
 
             app.Run();
         }

@@ -11,15 +11,16 @@ using System.Drawing;
 
 namespace Filer.Controllers
 {
-    [Route("[controller]")]
     public class FilerController : Controller
     {
         private readonly FileRepository _fileRepository;
+        private readonly UserRepository _userRepository;
         private readonly FilerService _service;
         private readonly IWebHostEnvironment _appEnvironment;
         public FilerController(UserRepository userRepository, FilerService service, IWebHostEnvironment hostEnvironment, FileRepository fileRepository, FolderRepository folderRepository)
         {
             _fileRepository = fileRepository;
+            _userRepository = userRepository;
             _service = service;
             _appEnvironment = hostEnvironment;
         }
@@ -32,10 +33,10 @@ namespace Filer.Controllers
             if (!serviceResponse.IsCompleted)
             {
                 ModelState.AddModelError(serviceResponse.ErrorEntity, serviceResponse.ErrorMessage);
-                return RedirectToAction("main");
+                return RedirectToAction("Main");
             }
 
-            return RedirectToAction("main");
+            return RedirectToAction("Main");
 
         }
 
@@ -47,12 +48,11 @@ namespace Filer.Controllers
             if (!serviceResponse.IsCompleted)
             {
                 ModelState.AddModelError(serviceResponse.ErrorEntity, serviceResponse.ErrorMessage);
-                return RedirectToAction("main");
+                return RedirectToAction("Main");
             }
-            return RedirectToAction("main");
+            return RedirectToAction("Main");
 
         }
-        [Route("page/folders/{folder:long?}")]
         public IActionResult Main(string? src, long? folder)
             
         {
@@ -78,7 +78,12 @@ namespace Filer.Controllers
                 return new FileContentResult(stream, $"application/{file.Format}");
             }
         }
-
+        [Authorize]
+        public IActionResult Profile()
+        {
+            User? u = _service.GetUserByCookie(HttpContext);
+            return View(u);
+        }
         [Authorize]
         public IActionResult GetFile(long id)
         {
