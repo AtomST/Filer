@@ -1,4 +1,5 @@
 ﻿using Filer.DAL.DbModels;
+using File = Filer.DAL.DbModels.File;
 
 namespace Filer.Models
 {

@@ -7,6 +7,7 @@ using Filer.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.FileProviders;
+using System.Data.Common;
 using System.Drawing;
 
 namespace Filer.Controllers
@@ -15,6 +16,7 @@ namespace Filer.Controllers
     {
         private readonly FileRepository _fileRepository;
         private readonly UserRepository _userRepository;
+        private readonly FolderRepository _folderRepository;
         private readonly FilerService _service;
         private readonly IWebHostEnvironment _appEnvironment;
         public FilerController(UserRepository userRepository, FilerService service, IWebHostEnvironment hostEnvironment, FileRepository fileRepository, FolderRepository folderRepository)
@@ -23,6 +25,7 @@ namespace Filer.Controllers
             _userRepository = userRepository;
             _service = service;
             _appEnvironment = hostEnvironment;
+            _folderRepository = folderRepository;
         }
         [RequestSizeLimit(515 * 1024 * 1024)]
         [Authorize]
@@ -33,18 +36,38 @@ namespace Filer.Controllers
             if (!serviceResponse.IsCompleted)
             {
                 ModelState.AddModelError(serviceResponse.ErrorEntity, serviceResponse.ErrorMessage);
+                ViewBag.ErrorEntity = serviceResponse.ErrorMessage;
                 return RedirectToAction("Main");
             }
 
             return RedirectToAction("Main");
 
         }
+        [RequestSizeLimit(515 * 1024 * 1024)]
+        public async Task<IActionResult> AddFolder(IFormFileCollection f, long folder)
+        {
+            ServiceResponse serviceResponse = await _service.AddFolder(HttpContext, f, folder);
+            if (!serviceResponse.IsCompleted)
+            {
+                ModelState.AddModelError(serviceResponse.ErrorEntity, serviceResponse.ErrorMessage);
+                return RedirectToAction("Main");
+            }
 
+            return RedirectToAction("Main");
+
+        }
+        [Authorize]
+        public async Task<IActionResult> DeleteFolder(long folderid)
+        {
+            await _folderRepository.DeleteFolder(folderid);
+            _folderRepository.SaveChanges();
+            return RedirectToAction("Main");
+        }
         [Authorize]
         [HttpPost]
         public async Task<IActionResult> CreateFolder(string title, long folderId)
         {
-            ServiceResponse serviceResponse = await _service.CreateFolder(title, folderId, HttpContext);
+            AddFolderResponse serviceResponse = await _service.CreateFolder(title, folderId, HttpContext, _service.GetUserByCookie(HttpContext).Id);
             if (!serviceResponse.IsCompleted)
             {
                 ModelState.AddModelError(serviceResponse.ErrorEntity, serviceResponse.ErrorMessage);
@@ -53,7 +76,7 @@ namespace Filer.Controllers
             return RedirectToAction("Main");
 
         }
-        public IActionResult Main(string? src, long? folder)
+        public IActionResult Main(string? src, long folder)
             
         {
 

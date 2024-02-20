@@ -1,3 +1,4 @@
+using AspNetCore.Yandex.ObjectStorage.Extensions;
 using Filer.DAL;
 using Filer.DAL.Repositories;
 using Filer.DAL.Repository;
@@ -25,7 +26,7 @@ namespace Filer
             builder.Services.AddTransient<UserRepository>();
             builder.Services.AddTransient<FileRepository>();
             builder.Services.AddTransient<FolderRepository>();
-
+            builder.Services.AddTransient<DbTransaction>();
 
             builder.Services.AddTransient<FilerService>();
             var app = builder.Build();

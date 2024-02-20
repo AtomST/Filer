@@ -31,6 +31,6 @@ namespace Filer.DAL.DbModels
 
 
         public long? FolderId { get; set; }
-        public virtual Folder? Folder { get; set; }
+        public Folder Folder { get; set; }
     }
 }

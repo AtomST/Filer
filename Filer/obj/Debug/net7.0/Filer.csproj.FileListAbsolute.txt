@@ -291,3 +291,5 @@ C:\Users\stasz\source\repos\Filer1.2\Filer\obj\Debug\net7.0\refint\Filer.dll
 C:\Users\stasz\source\repos\Filer1.2\Filer\obj\Debug\net7.0\Filer.pdb
 C:\Users\stasz\source\repos\Filer1.2\Filer\obj\Debug\net7.0\Filer.genruntimeconfig.cache
 C:\Users\stasz\source\repos\Filer1.2\Filer\obj\Debug\net7.0\ref\Filer.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\AspNetCore.Yandex.ObjectStorage.dll
+C:\Users\Станислав\source\repos\Filer\Filer\bin\Debug\net7.0\FluentResults.dll
