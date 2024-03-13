@@ -1,0 +1,89 @@
+﻿@using Filer.Services.DTOs;
+@model MainDTO
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<div class="row" style="margin:0;padding:0">
+    @if(!User.Identity.IsAuthenticated)
+    {
+        <h1 class="text-center">Для работы с Filer необходимо авторизоваться!</h1>
+    }
+    else
+    {
+        <div class="col-2 border border-dark justify-content-start vh-100 shadow-lg" style="padding:0">
+            <form method="post" enctype="multipart/form-data">
+                <span>@ViewBag.ErrorEntity</span>
+                <div>
+                    <label id="file">Добавить файл</label><br />
+                    <input type="file" name="f" id="file" multiple>
+                </div>
+                <button type="submit" asp-action="AddFile" asp-route-folder="@Model.folderId" class="rounded mw-100">Сохранить</button>
+            </form>
+            <form method="post" enctype="multipart/form-data">
+                <div>
+                    <label id="folder">Добавить папку</label><br />
+                    <input type="file" name="f" id="folder" multiple webkitdirectory directory>
+                </div>
+                <button type="submit" asp-action="AddFolder" asp-route-folder="@Model.folderId" class="rounded mw-100">Сохранить</button>
+            </form>
+            <form method="post" enctype="multipart/form-data">
+                <div>
+                    <label id="folderC">Создать папку</label><br />
+                    <input type="text" name="title" id="folderC" >
+                </div>
+                <button type="submit" asp-action="CreateFolder" asp-route-folderid="@Model.folderId" class="rounded mw-100">Сохранить</button>
+            </form>
+        </div>
+        <div class="col-10" style="margin-top:1px;">
+            <form method="post" enctype="multipart/form-data">
+                <div class="row" style="padding-left:16px;">
+                    <span class="col-11" style="padding:0" ><input type="text" class="form-control" name="src" placeholder="Поиск по файлам" /></span>
+                    <button type="submit" asp-action="main" class="col-1 rounded mw-100" >Поиск</button>
+                </div>
+            </form>
+            @if (Model != null)
+            {
+                @if(Model.SrcParam != null)
+                {
+                    <div class="row text-center shadow-sm rounded" style="margin-bottom:1px; margin-left:4px">
+                        <span class="col-2">Поиск: @Model.SrcParam</span>
+                        <button class="col-1"><a asp-action="main"> Показать все</a></button>
+                    </div>   
+                }
+                <div class="row text-center shadow-sm rounded" style="margin-bottom:1px; margin-left:4px">
+                    <span class="col-2 align-middle text-start">Название</span>
+                    <span class="col align-middle">Размер(МБ)</span>
+                    <span class="col align-middle">Расширение</span>
+                    <span class="col align-middle"></span>
+                    <span class="col align-middle"></span>
+                    <span class="col align-middle"></span>
+                </div>
+                @foreach (Folder fld in Model.folders)
+                {
+                    <div class="row text-center shadow-sm rounded" style="margin-bottom:1px; margin-left:4px; background-color:#8f8483">
+                        <span class="col-2 align-middle text-start"><a asp-action="main" asp-route-folder="@fld.Id" style="text-decoration:none">@fld.Name</a></span>
+                        <span class="col align-middle"></span>
+                        <span class="col align-middle"></span>
+                        <span class="col align-middle" ></span>
+                        <span class="col align-middle"><a asp-action="DeleteFolder" asp-route-folderid="@fld.Id">Удалить</a></span>
+                        <span class="col align-middle rounded mw-100"><a asp-action="GetFolder" asp-route-id="@fld.Id">Загрузить</a></span>
+                    </div>
+                }
+                @foreach (File f in Model.files)
+                {
+                    <div class="row text-center shadow-sm rounded" style="margin-bottom:1px; margin-left:4px; background-color:#89ade0">
+                        <span class="col-2 align-middle text-start"><a asp-action="OpenFile" asp-route-id="@f.Id">@f.Name</a></span>
+                        <span class="col align-middle">@f.Size</span>
+                        <span class="col align-middle">@f.Format</span>
+                        <span class="col align-middle"></span>
+                        <span class="col align-middle rounded mw-100"><a asp-action="DeleteFile" asp-route-id="@f.Id">Удалить</a></span>
+                        <span class="col align-middle rounded mw-100"><a asp-action="GetFile" asp-route-id="@f.Id">Загрузить</a></span>
+                    </div>
+                }
+            }
+        </div>
+    }
+</div>

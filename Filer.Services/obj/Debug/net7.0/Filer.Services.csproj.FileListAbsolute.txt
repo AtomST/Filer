@@ -1,0 +1,5 @@
+C:\Users\Станислав\source\repos\Filer\Filer.Services\obj\Debug\net7.0\Filer.Services.csproj.AssemblyReference.cache
+C:\Users\Станислав\source\repos\Filer\Filer.Services\obj\Debug\net7.0\Filer.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Станислав\source\repos\Filer\Filer.Services\obj\Debug\net7.0\Filer.Services.AssemblyInfoInputs.cache
+C:\Users\Станислав\source\repos\Filer\Filer.Services\obj\Debug\net7.0\Filer.Services.AssemblyInfo.cs
+C:\Users\Станислав\source\repos\Filer\Filer.Services\obj\Debug\net7.0\Filer.Services.csproj.CoreCompileInputs.cache

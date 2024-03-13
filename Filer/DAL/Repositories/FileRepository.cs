@@ -19,6 +19,10 @@ namespace Filer.DAL.Repositories
             await _dbcontext.Files.AddAsync(file);
 
         }
+        public void DeleteFile(DbModels.File file)
+        {
+            _dbcontext.Files.Remove(file);
+        }
         public async Task SaveChangesAsync()
         {
             await _dbcontext.SaveChangesAsync();

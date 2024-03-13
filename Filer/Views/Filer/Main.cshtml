@@ -54,27 +54,33 @@
                     </div>   
                 }
                 <div class="row text-center shadow-sm rounded" style="margin-bottom:1px; margin-left:4px">
-                    <span class="col-3 align-middle text-start">Название</span>
-                    <span class="col-3 align-middle">Размер(МБ)</span>
-                    <span class="col-3 align-middle">Расширение</span>
+                    <span class="col-2 align-middle text-start">Название</span>
+                    <span class="col align-middle">Размер(МБ)</span>
+                    <span class="col align-middle">Расширение</span>
+                    <span class="col align-middle"></span>
+                    <span class="col align-middle"></span>
+                    <span class="col align-middle"></span>
                 </div>
                 @foreach (Folder fld in Model.folders)
                 {
                     <div class="row text-center shadow-sm rounded" style="margin-bottom:1px; margin-left:4px; background-color:#8f8483">
-                        <span class="col align-middle text-start"><a asp-action="main" asp-route-folder="@fld.Id" style="text-decoration:none">@fld.Name</a></span>
+                        <span class="col-2 align-middle text-start"><a asp-action="main" asp-route-folder="@fld.Id" style="text-decoration:none">@fld.Name</a></span>
                         <span class="col align-middle"></span>
                         <span class="col align-middle"></span>
                         <span class="col align-middle" ></span>
                         <span class="col align-middle"><a asp-action="DeleteFolder" asp-route-folderid="@fld.Id">Удалить</a></span>
+                        <span class="col align-middle rounded mw-100"><a asp-action="GetFolder" asp-route-id="@fld.Id">Загрузить</a></span>
                     </div>
                 }
                 @foreach (File f in Model.files)
                 {
                     <div class="row text-center shadow-sm rounded" style="margin-bottom:1px; margin-left:4px; background-color:#89ade0">
-                        <span class="col align-middle text-start"><a asp-action="OpenFile" asp-route-id="@f.Id">@f.Name</a></span>
+                        <span class="col-2 align-middle text-start"><a asp-action="OpenFile" asp-route-id="@f.Id">@f.Name</a></span>
                         <span class="col align-middle">@f.Size</span>
                         <span class="col align-middle">@f.Format</span>
-                        <span class="col align-middle rounded mw-100"><a asp-action="GetFile" asp-route-id="@f.Id">Сохранить</a></span>
+                        <span class="col align-middle"></span>
+                        <span class="col align-middle rounded mw-100"><a asp-action="DeleteFile" asp-route-id="@f.Id">Удалить</a></span>
+                        <span class="col align-middle rounded mw-100"><a asp-action="GetFile" asp-route-id="@f.Id">Загрузить</a></span>
                     </div>
                 }
             }

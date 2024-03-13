@@ -1,0 +1,12 @@
+C:\Users\Станислав\source\repos\Filer\Filer.DAL\obj\Debug\net7.0\Filer.DAL.csproj.AssemblyReference.cache
+C:\Users\Станислав\source\repos\Filer\Filer.DAL\obj\Debug\net7.0\Filer.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Станислав\source\repos\Filer\Filer.DAL\obj\Debug\net7.0\Filer.DAL.AssemblyInfoInputs.cache
+C:\Users\Станислав\source\repos\Filer\Filer.DAL\obj\Debug\net7.0\Filer.DAL.AssemblyInfo.cs
+C:\Users\Станислав\source\repos\Filer\Filer.DAL\obj\Debug\net7.0\Filer.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Станислав\source\repos\Filer\Filer.DAL\bin\Debug\net7.0\Filer.DAL.deps.json
+C:\Users\Станислав\source\repos\Filer\Filer.DAL\bin\Debug\net7.0\Filer.DAL.dll
+C:\Users\Станислав\source\repos\Filer\Filer.DAL\bin\Debug\net7.0\Filer.DAL.pdb
+C:\Users\Станислав\source\repos\Filer\Filer.DAL\obj\Debug\net7.0\Filer.DAL.dll
+C:\Users\Станислав\source\repos\Filer\Filer.DAL\obj\Debug\net7.0\refint\Filer.DAL.dll
+C:\Users\Станислав\source\repos\Filer\Filer.DAL\obj\Debug\net7.0\Filer.DAL.pdb
+C:\Users\Станислав\source\repos\Filer\Filer.DAL\obj\Debug\net7.0\ref\Filer.DAL.dll

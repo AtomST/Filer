@@ -93,7 +93,7 @@ namespace Filer.Controllers
         public FileContentResult OpenFile(long id)
         {
             var file = _fileRepository.Files.FirstOrDefault(f => f.Id == id);
-            string path = Path.Combine(_appEnvironment.ContentRootPath, $"Files/{file.HashName[0] + file.HashName[1]}/{file.HashName[2] + file.HashName[3]}/{file.HashName}");
+            string path = Path.Combine(_appEnvironment.ContentRootPath, file.GetPath());
             using (FileStream fileStream = new FileStream(path, FileMode.Open))
             {
                 byte[] stream = new byte[fileStream.Length];
@@ -111,9 +111,34 @@ namespace Filer.Controllers
         public IActionResult GetFile(long id)
         {
             var file = _fileRepository.Files.FirstOrDefault(f => f.Id == id);
-            string path = Path.Combine(_appEnvironment.ContentRootPath, $"Files/{file.HashName[0] + file.HashName[1]}/{file.HashName[2] + file.HashName[3]}/{file.HashName}");
+            string path = Path.Combine(_appEnvironment.ContentRootPath, file.GetPath());
             return PhysicalFile(path, $"application/{file.Format}", file.Name);
         
+        }
+        [Authorize]
+        public async Task<IActionResult> DeleteFile(long id)
+        {
+            var file = _fileRepository.Files.FirstOrDefault(f => f.Id == id);
+            if(file != null)
+            {
+                _fileRepository.DeleteFile(file);
+                FileInfo f = new FileInfo(file.GetPath());
+                if(f.Exists)
+                {
+                    f.Delete();
+                }
+                await _fileRepository.SaveChangesAsync();
+            }
+            return RedirectToAction("Main");
+
+        }
+        [Authorize]
+        public IActionResult GetFolder(long id)
+        {
+            var file = _fileRepository.Files.FirstOrDefault(f => f.Id == id);
+            string path = Path.Combine(_appEnvironment.ContentRootPath, file.GetPath());
+            return PhysicalFile(path, $"application/{file.Format}", file.Name);
+
         }
     }
 }

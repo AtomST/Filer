@@ -1,0 +1,19 @@
+﻿@using Filer.DAL.DbModels;
+@model User
+<div class="reg-form">
+    <h1>Login</h1>
+    <form method="post">
+        <div class="reg-row">
+            <div asp-validation-summary="All"></div>
+            <input asp-for="Email" type="text" placeholder="Email" />
+        </div>
+        <div class="reg-row">
+            <input asp-for="Name" type="text" placeholder="Name" />
+        </div>
+        <div class="reg-row">
+            <input asp-for="Password" type="password" placeholder="Password"/>
+        </div>
+        <button type="submit">Зарегистрироваться</button>
+    </form>
+
+</div>

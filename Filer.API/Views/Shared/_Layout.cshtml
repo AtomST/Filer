@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Filer</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body style="margin:0; padding:0">
+    <nav class="navbar navbar-light" style="background:#89ade0">
+        <div class="row container-fluid ">
+            <p class="navbar-brand mb-0 h1 col">Filer</p>
+            <p class="text-center fst-italic col">Сохраняйте и делитесь</p>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <p class="text-center fst-italic col"><a asp-action="Profile">@User.Identity.Name</a></p>
+                <p class="text-center col"><a asp-controller="auth" asp-action="LogOut">Выход</a></p>
+            }
+            else
+            {
+                <p class="text-center col"><a asp-action="Login" asp-controller="auth" style="text-decoration:none">Войти</a></p>
+
+            }
+        </div>
+
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

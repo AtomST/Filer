@@ -1,0 +1,15 @@
+C:\Users\Станислав\source\repos\Filer\Filer.Services\obj\Debug\net7.0\Filer.BL.csproj.AssemblyReference.cache
+C:\Users\Станислав\source\repos\Filer\Filer.Services\obj\Debug\net7.0\Filer.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Станислав\source\repos\Filer\Filer.Services\obj\Debug\net7.0\Filer.BL.AssemblyInfoInputs.cache
+C:\Users\Станислав\source\repos\Filer\Filer.Services\obj\Debug\net7.0\Filer.BL.AssemblyInfo.cs
+C:\Users\Станислав\source\repos\Filer\Filer.Services\obj\Debug\net7.0\Filer.BL.csproj.CoreCompileInputs.cache
+C:\Users\Станислав\source\repos\Filer\Filer.Services\bin\Debug\net7.0\Filer.BL.deps.json
+C:\Users\Станислав\source\repos\Filer\Filer.Services\bin\Debug\net7.0\Filer.BL.dll
+C:\Users\Станислав\source\repos\Filer\Filer.Services\bin\Debug\net7.0\Filer.BL.pdb
+C:\Users\Станислав\source\repos\Filer\Filer.Services\bin\Debug\net7.0\Filer.DAL.dll
+C:\Users\Станислав\source\repos\Filer\Filer.Services\bin\Debug\net7.0\Filer.DAL.pdb
+C:\Users\Станислав\source\repos\Filer\Filer.Services\obj\Debug\net7.0\Filer.BL.csproj.CopyComplete
+C:\Users\Станислав\source\repos\Filer\Filer.Services\obj\Debug\net7.0\Filer.BL.dll
+C:\Users\Станислав\source\repos\Filer\Filer.Services\obj\Debug\net7.0\refint\Filer.BL.dll
+C:\Users\Станислав\source\repos\Filer\Filer.Services\obj\Debug\net7.0\Filer.BL.pdb
+C:\Users\Станислав\source\repos\Filer\Filer.Services\obj\Debug\net7.0\ref\Filer.BL.dll
